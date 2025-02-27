@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Courses</title>
+</head>
+<body>
+    <h1>Courses</h1>
+    <form action="#" th:action="@{/api/courses}" method="post">
+        <label for="courseName">Course Name:</label>
+        <input type="text" id="courseName" name="courseName"><br>
+        <label for="courseCode">Course Code:</label>
+        <input type="text" id="courseCode" name="courseCode"><br>
+        <label for="creditHours">Credit Hours:</label>
+        <input type="number" id="creditHours" name="creditHours"><br>
+        <button type="submit">Create Course</button>
+    </form>
+    <form action="#" th:action="@{/api/courses/{courseCode}(courseCode=${courseCode})}" method="get">
+        <label for="courseCode">Course Code:</label>
+        <input type="text" id="courseCode" name="courseCode"><br>
+        <button type="submit">Get Course</button>
+    </form>
+</body>
+</html>

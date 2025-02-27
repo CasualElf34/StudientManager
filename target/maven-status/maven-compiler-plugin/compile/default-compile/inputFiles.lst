@@ -1,0 +1,13 @@
+/home/mael/Java/demo/src/main/java/com/studentmanagement/controller/CourseController.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/repository/StudentRepository.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/service/CourseService.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/controller/StudentController.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/service/EnrollmentService.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/StudentManagementSystemApplication.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/model/Enrollment.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/repository/CourseRepository.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/repository/EnrollmentRepository.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/controller/EnrollmentController.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/model/Course.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/service/StudentService.java
+/home/mael/Java/demo/src/main/java/com/studentmanagement/model/Student.java

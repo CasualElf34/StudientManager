@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Enrollments</title>
+</head>
+<body>
+    <h1>Enrollments</h1>
+    <form action="#" th:action="@{/api/enrollments}" method="post">
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" name="studentId"><br>
+        <label for="courseCode">Course Code:</label>
+        <input type="text" id="courseCode" name="courseCode"><br>
+        <button type="submit">Enroll Student</button>
+    </form>
+    <div th:each="enrollment : ${enrollments}">
+        <p th:text="'Student: ' + ${enrollment.student.name} + ', Course: ' + ${enrollment.course.name}"></p>
+    </div>
+</body>
+</html>
