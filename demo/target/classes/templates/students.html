@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Students</title>
+</head>
+<body>
+    <h1>Students</h1>
+    <form action="#" th:action="@{/api/students}" method="post">
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" name="studentId"><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br>
+        <button type="submit">Create Student</button>
+    </form>
+    <form action="#" th:action="@{/api/students/{studentId}(studentId=${studentId})}" method="get">
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" name="studentId"><br>
+        <button type="submit">Get Student</button>
+    </form>
+</body>
+</html>
